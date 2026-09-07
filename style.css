@@ -1470,12 +1470,30 @@ h2 {
     border-radius: 100px 100px 18px 18px
   }
 
-  .hero-logo-replacement {
+  /* .hero-logo-replacement {
     left: 12px;
     bottom: 10px;
     width: 105px;
     height: 105px
-  }
+  } */
+
+  .hero-visual::after {
+  left: 12px;
+  bottom: 10px;
+
+  width: 105px;
+  height: 105px;
+}
+
+.hero-logo-replacement {
+  left: 12px;
+  bottom: 10px;
+
+  width: 105px;
+  height: 105px;
+
+  transform: scale(1.05);
+}
 
   .story-image {
     height: 225px
